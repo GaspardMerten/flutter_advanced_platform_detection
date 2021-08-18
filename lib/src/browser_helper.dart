@@ -3,7 +3,6 @@ import 'dart:async';
 /// All the browser supported by this plugin
 enum AdvancedBrower { safari, chrome, edge, firefox, opera, internetExplorer }
 
-
 mixin AdvancedPlatformHelper {
   FutureOr<AdvancedBrower?> getBrowser();
 

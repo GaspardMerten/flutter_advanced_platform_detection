@@ -15,9 +15,8 @@ abstract class AdvancedPlatform with AdvancedPlatformHelper {
     num version;
 
     try {
-     version = num.parse(await _channel.invokeMethod('getPlatformVersion'));
-    }
-    on FormatException catch (_) {
+      version = num.parse(await _channel.invokeMethod('getPlatformVersion'));
+    } on FormatException catch (_) {
       version = 0.0;
     }
 
@@ -28,7 +27,6 @@ abstract class AdvancedPlatform with AdvancedPlatformHelper {
     final res = await _channel.invokeMethod('getBrowserName').catchError((e) {
       return Future.value('');
     });
-
 
     AdvancedBrower? browser;
 
