@@ -5,9 +5,9 @@
 Pod::Spec.new do |s|
   s.name             = 'advanced_platform_detection'
   s.version          = '0.0.1'
-  s.summary          = 'A plugin that enables you to retrive the current platform  (iOS, Android, Windows, ...)+ brower & more'
+  s.summary          = 'A plugin that enables you to retrieve the current platform  (iOS, Android, Windows, ...)+ brower & more'
   s.description      = <<-DESC
-A plugin that enables you to retrive the current platform  (iOS, Android, Windows, ...)+ brower & more
+A plugin that enables you to retrieve the current platform  (iOS, Android, Windows, ...)+ brower & more
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }

@@ -1,6 +1,6 @@
 name: advanced_platform_detection
-description: A plugin that enables you to retrive the current platform  (iOS, Android, Windows, ...)+ brower & more
-version: 1.0.0
+description: A plugin that enables you to retrieve the current platform  (iOS, Android, Windows, ...)+ brower & more
+version: 1.0.1
 homepage: "https://github.com/GaspardMerten/flutter_advanced_platform_detection"
 publish_to: "https://pub.dev"
 

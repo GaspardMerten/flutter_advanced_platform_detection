@@ -9,6 +9,6 @@ public class SwiftAdvancedPlatformDetectionPlugin: NSObject, FlutterPlugin {
   }
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-    result(UIDevice.current.systemVersion)
+    result("" + UIDevice.current.systemVersion)
   }
 }
