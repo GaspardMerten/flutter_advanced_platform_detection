@@ -1,4 +1,4 @@
-# date_field
+# Advanced Platform Detection (os & browser)
 
 [![pub package](https://img.shields.io/pub/v/advanced_platform_detection.svg)](https://pub.dartlang.org/packages/advanced_platform_detection)
 
