@@ -1,0 +1,36 @@
+name: advanced_platform_detection
+description: A plugin that enables you to retrive the current platform  (iOS, Android, Windows, ...)+ brower & more
+version: 1.0.0
+homepage:
+publish_to: "https://pub.dev"
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: be.norse.advanced_platform_detection.advanced_platform_detection
+        pluginClass: AdvancedPlatformDetectionPlugin
+      ios:
+        pluginClass: AdvancedPlatformDetectionPlugin
+      macos:
+        pluginClass: AdvancedPlatformDetectionPlugin
+      windows:
+        pluginClass: AdvancedPlatformDetectionPlugin
+      web:
+        pluginClass: AdvancedPlatformDetectionWeb
+        fileName: src/advanced_platform_detection_web.dart
