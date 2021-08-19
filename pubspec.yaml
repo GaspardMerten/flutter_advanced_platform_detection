@@ -31,6 +31,8 @@ flutter:
         pluginClass: AdvancedPlatformDetectionPlugin
       windows:
         pluginClass: AdvancedPlatformDetectionPlugin
+      linux:
+        pluginClass: AdvancedPlatformDetectionPlugin
       web:
         pluginClass: AdvancedPlatformDetectionWeb
         fileName: src/advanced_platform_detection_web.dart
