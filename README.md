@@ -11,7 +11,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 ```yaml
 dependencies:
   ...
-  advanced_platform_detection: ^1.0.0
+  advanced_platform_detection: ^1.0.4
 ```
 
 In your library add the following import:
